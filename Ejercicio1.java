@@ -6,6 +6,7 @@ public class Ejercicio1 {
         try {
             _age= Integer.parseInt(JOptionPane.showInputDialog("age?"));
         } catch (NumberFormatException e) {
+
             System.out.println( "imposible de tratar");
         }
         System.out.println(_age<= 18 ?"acceso denegado":"acceso concedido");
